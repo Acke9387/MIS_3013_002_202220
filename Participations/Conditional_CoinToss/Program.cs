@@ -1,32 +1,39 @@
-﻿Random random = new Random();
-int randomNumber = random.Next(1, 3);
-
-//Console.WriteLine(randomNumber.ToString("N0"));
-
-Console.WriteLine("Guess, Heads or Tails? >>");
-string answer = Console.ReadLine();
+﻿bool shouldILetTheUserExitTheApplication = false;
+Random random = new Random();
 
 
-string randomNumberConvertToWord;
-
-if (randomNumber == 1)
+do
 {
-    //Console.WriteLine("It was Heads.");
-    randomNumberConvertToWord = "Heads";
-}
-else// if (randomNumber == 2)
-{
-    //Console.WriteLine("It was Tails.");
-    randomNumberConvertToWord = "Tails";
-}
+    int randomNumber = random.Next(1, 3);
 
-Console.WriteLine($"It was {randomNumberConvertToWord}.");
+    Console.WriteLine(randomNumber.ToString("N0"));
 
-if (randomNumberConvertToWord == answer)
-{
-    Console.WriteLine("Congratulations, you guessed correctly!");
-}
-else
-{
-    Console.WriteLine("Sorry, better luck next time.");
-}
+    Console.WriteLine("Guess, Heads or Tails? >>");
+    string answer = Console.ReadLine();
+
+
+    string randomNumberConvertToWord;
+
+    if (randomNumber == 1)
+    {
+        //Console.WriteLine("It was Heads.");
+        randomNumberConvertToWord = "Heads";
+    }
+    else// if (randomNumber == 2)
+    {
+        //Console.WriteLine("It was Tails.");
+        randomNumberConvertToWord = "Tails";
+    }
+
+    Console.WriteLine($"It was {randomNumberConvertToWord}.");
+
+    if (randomNumberConvertToWord == answer)
+    {
+        Console.WriteLine("Congratulations, you guessed correctly, you may now leave the dungeon.");
+        shouldILetTheUserExitTheApplication = true;
+    }
+    else
+    {
+        Console.WriteLine("Sorry, you must remain in our lair.");
+    }
+} while (shouldILetTheUserExitTheApplication == false);
