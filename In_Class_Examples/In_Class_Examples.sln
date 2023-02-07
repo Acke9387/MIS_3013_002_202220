@@ -5,7 +5,13 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Variables.csproj", "{EC050375-2A12-45F1-9DE3-256BE14F6950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals_Example2", "Conditionals_Example2\Conditionals_Example2.csproj", "{3A3431B0-35F7-40D0-A443-905C1F5848AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_Example2", "Conditionals_Example2\Conditionals_Example2.csproj", "{3A3431B0-35F7-40D0-A443-905C1F5848AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_Example1", "Loops_Example1\Loops_Example1.csproj", "{7665FE71-625B-4241-8CF5-FCB1AB29F6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_Example2", "Loops_Example2\Loops_Example2.csproj", "{4029D6C0-2A3D-4242-8810-766EF1B7E7FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_Example3", "Loops_Example3\Loops_Example3.csproj", "{F91393AE-95F1-4FEF-8E21-3A0BB14951A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{3A3431B0-35F7-40D0-A443-905C1F5848AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A3431B0-35F7-40D0-A443-905C1F5848AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A3431B0-35F7-40D0-A443-905C1F5848AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7665FE71-625B-4241-8CF5-FCB1AB29F6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7665FE71-625B-4241-8CF5-FCB1AB29F6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7665FE71-625B-4241-8CF5-FCB1AB29F6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7665FE71-625B-4241-8CF5-FCB1AB29F6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4029D6C0-2A3D-4242-8810-766EF1B7E7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4029D6C0-2A3D-4242-8810-766EF1B7E7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4029D6C0-2A3D-4242-8810-766EF1B7E7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4029D6C0-2A3D-4242-8810-766EF1B7E7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91393AE-95F1-4FEF-8E21-3A0BB14951A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91393AE-95F1-4FEF-8E21-3A0BB14951A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91393AE-95F1-4FEF-8E21-3A0BB14951A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91393AE-95F1-4FEF-8E21-3A0BB14951A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
