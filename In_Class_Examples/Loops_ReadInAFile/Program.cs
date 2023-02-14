@@ -10,6 +10,8 @@ Console.ForegroundColor = ConsoleColor.Red;
 
 Console.WriteLine(linesOfBook[1]);
 
+
+
 for (int i = 0; i < linesOfBook.Length; i++)
 {
     Console.WriteLine(linesOfBook[i]);
