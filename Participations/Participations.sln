@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOf3", "SumOf3\SumOf3.csproj", "{056BF22D-CA19-4F39-8520-0DE50EA3DEB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional_CoinToss", "Conditional_CoinToss\Conditional_CoinToss.csproj", "{960DCDF9-C4D6-4801-B5A4-28E2CF3DCA55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional_CoinToss", "Conditional_CoinToss\Conditional_CoinToss.csproj", "{960DCDF9-C4D6-4801-B5A4-28E2CF3DCA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops-BankAccountInfo", "Loops-BankAccountInfo\Loops-BankAccountInfo.csproj", "{24B57072-F1B3-4B89-B2DD-9E5F462880A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{960DCDF9-C4D6-4801-B5A4-28E2CF3DCA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960DCDF9-C4D6-4801-B5A4-28E2CF3DCA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960DCDF9-C4D6-4801-B5A4-28E2CF3DCA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B57072-F1B3-4B89-B2DD-9E5F462880A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B57072-F1B3-4B89-B2DD-9E5F462880A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B57072-F1B3-4B89-B2DD-9E5F462880A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B57072-F1B3-4B89-B2DD-9E5F462880A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
