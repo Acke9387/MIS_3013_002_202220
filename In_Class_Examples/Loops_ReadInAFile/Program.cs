@@ -8,15 +8,34 @@ Console.WriteLine(linesOfBook[0]);
 
 Console.ForegroundColor = ConsoleColor.Red;
 
-Console.WriteLine(linesOfBook[1]);
+//Console.WriteLine(linesOfBook[1]);
 
 
+bool foundStartOfBook = false;
 
 for (int i = 0; i < linesOfBook.Length; i++)
 {
-    Console.WriteLine(linesOfBook[i]);
-	if (i % 15 == 0)
+	string line = linesOfBook[i];
+
+	if (line.Contains("THE END") == true)
 	{
-		Console.ReadKey();
+		Console.WriteLine(line);
+		break;
 	}
+
+	if (foundStartOfBook == false && line.Contains("Title") == false)
+	{
+		continue;
+	}
+	else
+	{
+		foundStartOfBook = true;
+	}
+
+
+    Console.WriteLine(linesOfBook[i]);
+	//if (i % 15 == 0)
+	//{
+	//	Console.ReadKey();
+	//}
 }
