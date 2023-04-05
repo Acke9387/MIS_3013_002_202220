@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2Comprehensive", "Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-Speak", "Functions-Speak\Functions-Speak.csproj", "{3307E8FF-886B-4BCC-A6CB-C6437D23DCBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-ParallelArrays", "Functions-ParallelArrays\Functions-ParallelArrays.csproj", "{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3307E8FF-886B-4BCC-A6CB-C6437D23DCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3307E8FF-886B-4BCC-A6CB-C6437D23DCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3307E8FF-886B-4BCC-A6CB-C6437D23DCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
