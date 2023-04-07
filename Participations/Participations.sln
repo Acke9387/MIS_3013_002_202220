@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "Strin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2Comprehensive", "Module2Comprehensive\Module2Comprehensive.csproj", "{783C1636-0BCA-48FC-BB7A-BFCA2C1FB0D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-Speak", "Functions-Speak\Functions-Speak.csproj", "{3307E8FF-886B-4BCC-A6CB-C6437D23DCBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions-Speak", "Functions-Speak\Functions-Speak.csproj", "{3307E8FF-886B-4BCC-A6CB-C6437D23DCBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-ParallelArrays", "Functions-ParallelArrays\Functions-ParallelArrays.csproj", "{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions-ParallelArrays", "Functions-ParallelArrays\Functions-ParallelArrays.csproj", "{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function-DoubleInputValidation", "Function-DoubleInputValidation\Function-DoubleInputValidation.csproj", "{9C79F1E9-4FBC-4BE4-B87B-A3B1CCE8BA7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B68D812E-FC2B-49A0-91B7-11BBEA40D9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C79F1E9-4FBC-4BE4-B87B-A3B1CCE8BA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C79F1E9-4FBC-4BE4-B87B-A3B1CCE8BA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C79F1E9-4FBC-4BE4-B87B-A3B1CCE8BA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C79F1E9-4FBC-4BE4-B87B-A3B1CCE8BA7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
