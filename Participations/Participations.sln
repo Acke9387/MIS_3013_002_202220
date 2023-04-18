@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function-DoubleInputValidat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Toy", "Classes_Toy\Classes_Toy.csproj", "{81597F77-B99A-4420-850A-6224B86C86F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Cereal", "Classes_Cereal\Classes_Cereal.csproj", "{64EB9872-E3AD-4F5F-AEB6-7B81F9DD8FA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{81597F77-B99A-4420-850A-6224B86C86F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81597F77-B99A-4420-850A-6224B86C86F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81597F77-B99A-4420-850A-6224B86C86F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EB9872-E3AD-4F5F-AEB6-7B81F9DD8FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EB9872-E3AD-4F5F-AEB6-7B81F9DD8FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EB9872-E3AD-4F5F-AEB6-7B81F9DD8FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EB9872-E3AD-4F5F-AEB6-7B81F9DD8FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
