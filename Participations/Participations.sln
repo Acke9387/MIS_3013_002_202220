@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Cereal", "Classes_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Cars", "Classes_Cars\Classes_Cars.csproj", "{6D2FF0B1-3CEF-4CFF-BAEF-EC4C0A52E026}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Pharmaceutical_Drugs", "Classes_Pharmaceutical_Drugs\Classes_Pharmaceutical_Drugs.csproj", "{53D956AF-833F-4BF5-AFC4-A79981EBD164}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{6D2FF0B1-3CEF-4CFF-BAEF-EC4C0A52E026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D2FF0B1-3CEF-4CFF-BAEF-EC4C0A52E026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D2FF0B1-3CEF-4CFF-BAEF-EC4C0A52E026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D956AF-833F-4BF5-AFC4-A79981EBD164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D956AF-833F-4BF5-AFC4-A79981EBD164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D956AF-833F-4BF5-AFC4-A79981EBD164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D956AF-833F-4BF5-AFC4-A79981EBD164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
